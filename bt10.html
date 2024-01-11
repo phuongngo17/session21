@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var age = 18;
+
+        if (age >= 18) {
+            console.log("Bạn đã đủ tuổi bầu cử.");
+        } else {
+            console.log("Bạn chưa đủ tuổi bầu cử.");
+        }
+        // câu lệnh if kiểm tra xem biến age có lớn hơn hoặc bằng 18 hay không.
+        // Nếu điều kiện đúng, nó sẽ in ra thông báo "Bạn đã đủ tuổi bầu cử.
+        //" Nếu điều kiện sai, câu lệnh else sẽ được thực hiện và in ra thông báo "Bạn chưa đủ tuổi bầu cử."
+
+    var day = 1;
+        var dayName;
+
+        switch (day) {
+            case 1:
+                dayName = "Thứ hai";
+                break;
+            case 2:
+                dayName = "Thứ ba";
+                break;
+            case 3:
+                dayName = "Thứ tư";
+                break;
+            case 4:
+                dayName = "Thứ năm";
+                break;
+            case 5:
+                dayName = "Thứ sáu";
+                break;
+            default:
+                dayName = "Ngày không hợp lệ";
+        }
+
+        console.log("Hôm nay là " ,dayName);
+        //giá trị của biến day được kiểm tra trong câu lệnh switch
+        //Nếu giá trị của day trùng khớp với một trong các case, thì các câu lệnh bên trong case đó sẽ được thực hiện
+        // Trong trường hợp này, với day là 1, câu lệnh dayName = "Thứ hai", sẽ được thực hiện
+        // Nếu không có trùng khớp nào, câu lệnh trong khối default sẽ được thực hiện
+</script>
+</html>
